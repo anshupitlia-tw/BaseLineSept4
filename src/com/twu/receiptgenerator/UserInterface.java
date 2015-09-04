@@ -14,6 +14,7 @@ public class UserInterface {
             inputByUser = br.readLine();
         }
         catch (IOException ioe) {
+            inputByUser = "no input by user";
             System.out.println("ERROR!");
         }
         return inputByUser;
