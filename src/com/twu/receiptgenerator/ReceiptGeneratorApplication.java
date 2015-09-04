@@ -8,6 +8,6 @@ public class ReceiptGeneratorApplication {
     }
 
     public void start() {
-        userInterface.getInput();
+        userInterface.getInputFromUser();
     }
 }

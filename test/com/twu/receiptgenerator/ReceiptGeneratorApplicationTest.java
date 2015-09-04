@@ -14,7 +14,7 @@ public class ReceiptGeneratorApplicationTest {
         ReceiptGeneratorApplication receiptGeneratorApplication = new ReceiptGeneratorApplication(userInterface);
         receiptGeneratorApplication.start();
 
-        verify(userInterface, times(1)).getInput();
+        verify(userInterface, times(1)).getInputFromUser();
     }
 
 }
