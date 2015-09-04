@@ -9,6 +9,13 @@ public class UserInterface {
     private String outputForUser;
 
     public String getInputFromUser() {
-        return "Hi! I want to give this line as input";
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        try {
+            inputByUser = br.readLine();
+        }
+        catch (IOException ioe) {
+            System.out.println("ERROR!");
+        }
+        return inputByUser;
     }
 }
