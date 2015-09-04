@@ -17,6 +17,6 @@ Apache Ant
 
 ##Build and automate the test
 
-As of now, no source code and spec code there.
-
-Coming Soon. :)
+````
+ant
+````
