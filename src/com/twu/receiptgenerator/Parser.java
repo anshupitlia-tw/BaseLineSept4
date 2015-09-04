@@ -5,14 +5,14 @@ public class Parser {
 
     public void initializeGoods(String input) {
         tokenize(input.toLowerCase());
-
     }
 
-    String tokenize(String input) {
+    String[] tokenize(String input) {
         if (input.contains("input")) {
-            return "a new basket";
+            return new String[] {"a new basket"};
         }
-        else
-            return "";
+        else {
+            return input.split(" at ");
+        }
     }
 }
