@@ -4,6 +4,15 @@ package com.twu.receiptgenerator;
 public class Parser {
 
     public void initializeGoods(String input) {
+        tokenize(input.toLowerCase());
 
+    }
+
+    String tokenize(String input) {
+        if (input.contains("input")) {
+            return "a new basket";
+        }
+        else
+            return "";
     }
 }
