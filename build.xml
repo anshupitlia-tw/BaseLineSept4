@@ -26,6 +26,7 @@
             <test name = "com.twu.receiptgenerator.ReceiptGeneratorApplicationTest" todir="."/>
             <test name = "com.twu.receiptgenerator.UserInterfaceTest" todir="."/>
             <test name = "com.twu.receiptgenerator.ParserTest" todir="."/>
+            <test name = "com.twu.receiptgenerator.BookTest" todir="."/>
         </junit>
     </target>
 </project>
