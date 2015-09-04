@@ -24,6 +24,7 @@
                 <pathelement location="out"/>
             </classpath>
             <test name = "com.twu.receiptgenerator.ReceiptGeneratorApplicationTest" todir="."/>
+            <test name = "com.twu.receiptgenerator.UserInterfaceTest" todir="."/>
         </junit>
     </target>
 </project>
